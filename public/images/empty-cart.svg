@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240" fill="none">
+    <defs>
+        <linearGradient id="emptyCartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#EBF3FC" />
+            <stop offset="100%" stop-color="#F1F5F9" />
+        </linearGradient>
+    </defs>
+    <circle cx="150" cy="120" r="90" fill="url(#emptyCartGrad)"/>
+    <ellipse cx="150" cy="195" rx="70" ry="12" fill="#E2E8F0"/>
+    
+    <!-- Empty Cart Body -->
+    <g transform="translate(75, 55)">
+        <path d="M10 20 L30 20 L55 90 L125 90 L145 35 L40 35" fill="none" stroke="#0B3B82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="60" y1="45" x2="135" y2="45" stroke="#93C5FD" stroke-width="2"/>
+        <line x1="65" y1="60" x2="130" y2="60" stroke="#93C5FD" stroke-width="2"/>
+        <line x1="70" y1="75" x2="125" y2="75" stroke="#93C5FD" stroke-width="2"/>
+        
+        <!-- Wheels -->
+        <circle cx="65" cy="105" r="9" fill="#0B3B82"/>
+        <circle cx="65" cy="105" r="4" fill="#FFFFFF"/>
+        <circle cx="115" cy="105" r="9" fill="#0B3B82"/>
+        <circle cx="115" cy="105" r="4" fill="#FFFFFF"/>
+        
+        <!-- Floating question mark / exclamation -->
+        <circle cx="90" cy="15" r="14" fill="#F59E0B"/>
+        <text x="90" y="21" font-family="'Poppins', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">!</text>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60" fill="none">
+    <defs>
+        <linearGradient id="legitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0B3B82" />
+            <stop offset="100%" stop-color="#1565C0" />
+        </linearGradient>
+        <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F59E0B" />
+            <stop offset="100%" stop-color="#D97706" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Logo Icon Group -->
+    <g transform="translate(6, 6)">
+        <!-- Hexagon Background -->
+        <polygon points="24,2 45,14 45,38 24,50 3,38 3,14" fill="url(#legitGrad)" />
+        <polygon points="24,5 42,15 42,37 24,47 6,37 6,15" fill="#0B3B82" stroke="#1E40AF" stroke-width="1"/>
+        
+        <!-- Flask / Beaker Icon -->
+        <path d="M21 16 L21 21 L14 34 C13 36 14.5 38 17 38 L31 38 C33.5 38 35 36 34 34 L27 21 L27 16 Z" fill="#FFFFFF" opacity="0.95" />
+        <!-- Chemical liquid level -->
+        <path d="M16.5 31.5 C19 33 22 30 25 32 C28 33.5 30 32 31.5 31.5 L33.5 35 C33 37 31.5 37.5 29.5 37.5 L18.5 37.5 C16.5 37.5 15 37 14.5 35 Z" fill="url(#amberGrad)" />
+        <!-- Bubbles -->
+        <circle cx="21" cy="27" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+        <circle cx="27" cy="25" r="1" fill="#FFFFFF" opacity="0.8"/>
+        <!-- Flask rim -->
+        <rect x="19" y="14" width="10" height="2.5" rx="1.2" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Typography -->
+    <text x="64" y="32" font-family="'Poppins', 'Inter', 'Segoe UI', sans-serif" font-size="22" font-weight="800" fill="#0B3B82" letter-spacing="1">LEGIT</text>
+    <text x="136" y="32" font-family="'Poppins', 'Inter', 'Segoe UI', sans-serif" font-size="22" font-weight="800" fill="#1565C0" letter-spacing="1">CHEMICAL</text>
+    <text x="64" y="47" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" font-weight="600" fill="#64748B" letter-spacing="2.5">CHEMICAL &amp; INDUSTRIAL</text>
+</svg>

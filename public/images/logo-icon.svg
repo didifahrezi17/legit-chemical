@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+    <defs>
+        <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0B3B82" />
+            <stop offset="100%" stop-color="#1565C0" />
+        </linearGradient>
+        <linearGradient id="iconAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F59E0B" />
+            <stop offset="100%" stop-color="#D97706" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Outer Container Rounded Rect -->
+    <rect width="64" height="64" rx="14" fill="url(#iconGrad)"/>
+    
+    <!-- Hexagon Border -->
+    <polygon points="32,8 54,20 54,44 32,56 10,44 10,20" fill="#072552" stroke="#2563EB" stroke-width="1.5"/>
+    
+    <!-- Flask / Beaker Icon -->
+    <path d="M28 20 L28 25 L20 40 C18.5 42.5 20.5 45 23.5 45 L40.5 45 C43.5 45 45.5 42.5 44 40 L36 25 L36 20 Z" fill="#FFFFFF" opacity="0.95" />
+    
+    <!-- Liquid -->
+    <path d="M22.5 37 C26 39 30 35 34 37.5 C37.5 39 40 37.5 41.5 37 L43 41 C42 44 39.5 44.5 37 44.5 L27 44.5 C24.5 44.5 22 44 21 41 Z" fill="url(#iconAmber)" />
+    
+    <!-- Bubbles -->
+    <circle cx="28" cy="32" r="2" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="36" cy="29" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="32" cy="39" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+    
+    <!-- Rim -->
+    <rect x="25" y="18" width="14" height="3" rx="1.5" fill="#FFFFFF"/>
+</svg>
